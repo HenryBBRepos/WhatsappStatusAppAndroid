@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_x"
+    tools:context=".Intro">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_one" />
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/statuss"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:elevation="2dp"
+            android:paddingRight="15dp"
+            android:onClick="ToMainContent"
+            android:layout_gravity="center"
+            android:background="@drawable/background_intro_btn"
+            android:layout_marginBottom="35dp"
+            android:textSize="23dp"
+            android:text="get started"
+            android:textColor="#ffffff"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+</RelativeLayout>
